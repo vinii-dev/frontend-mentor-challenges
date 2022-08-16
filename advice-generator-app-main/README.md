@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vinii-dev/frontend-mentor-challenges/tree/main/advice-generator-app-main)
+- Solution URL: [Solution URL](https://github.com/vinii-dev/frontend-mentor-challenges/tree/main/advice-generator-app-main)
 
 ### Built with
 

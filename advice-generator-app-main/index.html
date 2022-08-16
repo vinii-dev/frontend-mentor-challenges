@@ -8,21 +8,38 @@
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Google fonts api -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="./js/app.js"></script>
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <div class="advice">
+    <p id="advice-id">Advice #</p>
+    <p id="advice-phrase">...</p>
+    <img src="images/pattern-divider-desktop.svg" class="advice__desktop-img" alt="Divider Desktop">
+    <img src="images/pattern-divider-mobile.svg" class="advice__mobile-img" alt="Divider Mobile">
+    <button class="advice__dice-btn" onclick="appendPhraseToElm(adviceIdElm, advicePhraseElm)">
+      <img src="images/icon-dice.svg" alt="Icon Dice">
+    </button>
+  </div>
 
-  "<!-- Advice text goes here -->"
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/vinii-dev">Thauan Vinícius</a>.
   </div>
+  <script>
+    const adviceIdElm = document.getElementById("advice-id")
+    const advicePhraseElm = document.getElementById("advice-phrase")
+
+    console.log(adviceIdElm)
+    console.log(advicePhraseElm)
+    appendPhraseToElm(adviceIdElm, advicePhraseElm)
+  </script>
 </body>
 </html>

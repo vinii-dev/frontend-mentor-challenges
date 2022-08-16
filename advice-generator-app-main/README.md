@@ -46,3 +46,4 @@ Users should be able to:
 - JavaScript
 - Flexbox
 - CSS Grid
+- [Advice Slip JSON API](https://api.adviceslip.com/)
